@@ -1,0 +1,53 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinzaB: #AAA;
+    --branco: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*ELEMENTOS BASE*/
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--cinzaB);
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: var(--branco);
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal{
+    font-size: 16px;
+    background: url('../img/capa-stranger-things.png');
+
+    height: 400px;
+    background-size: 100%;
+}
