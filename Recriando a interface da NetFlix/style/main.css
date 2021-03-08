@@ -46,8 +46,21 @@ nav a:hover{
 
 .filme-principal{
     font-size: 16px;
-    background: url('../img/capa-stranger-things.png');
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)100%), url('../img/capa-stranger-things.png');
 
     height: 400px;
-    background-size: 100%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo{
+    font-size: 30px;
 }
