@@ -1,3 +1,7 @@
+:root{
+    --vermelho: rgb(255, 17, 17);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +21,7 @@ header .container{
 }
 
 nav{
-    margin-top: 25px;
+    margin-top: 15px;
     position: absolute;
     display: flex;
     align-items: center;
@@ -27,8 +31,7 @@ nav{
 }
 
 .logo img{
-    margin-top: 30px;
-    width: 15%;
+    width: 16.6%;
 }
 
 .botoes{
@@ -42,15 +45,15 @@ nav{
     background-color: transparent;
     border: 1px solid white;
     color: white;
-    margin-right: 20px;
+    margin-right: 25px;
     padding: 7px;
     z-index: 2;
 }
 
 #btn2{
     font-weight: bold;
-    background-color: rgb(255, 17, 17);
-    border: 1px solid rgb(255, 17, 17);
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
     border-radius: 3px;
     color: white;
     margin-right: 30px;
@@ -94,4 +97,25 @@ p:first-of-type{
 p:last-of-type{
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+.email{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.email input{
+    position: relative;
+    height: 7.5vh;
+    width: 760px;
+}
+
+.email button{
+    background-color: var(--vermelho);
+    border: none;
+    color: white;
+    position: absolute;
+    height: 7.5vh;
+    width: 200px;
+    font-size: 26px;
 }
