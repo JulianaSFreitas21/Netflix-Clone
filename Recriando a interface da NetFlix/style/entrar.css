@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header .container{
+    width: 90%;
+    margin: auto;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+nav{
+    margin-top: 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    height: 60px;
+}
+
+.logo img{
+    margin-top: 30px;
+    width: 15%;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn1{
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-right: 20px;
+    padding: 7px;
+    z-index: 2;
+}
+
+#btn2{
+    font-weight: bold;
+    background-color: rgb(255, 17, 17);
+    border: 1px solid rgb(255, 17, 17);
+    border-radius: 3px;
+    color: white;
+    margin-right: 30px;
+    padding: 6px 13px;
+}
+
+#fundo{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url(../img/fundoNetflix.jpg);
+    height: 900px;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+
+h1,p{
+    color: white;
+}
+
+/*TEXT*/
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1{
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p:first-of-type{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+p:last-of-type{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
