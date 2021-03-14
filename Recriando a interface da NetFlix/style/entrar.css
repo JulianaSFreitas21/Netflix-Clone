@@ -162,12 +162,27 @@ p:last-of-type{
 
 .television img{
     height: 390px;
+    position: relative;
+    z-index: 2;
 }
 
 .left h1, .right h1{
     font-weight: bold;
     font-size: 53px;
     margin-bottom: 10px;
+}
+
+.television .container .prop .right{
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#video1{
+    margin-top: 4%;
+    margin-left: 3.5%;
+    height: 215px;
+    position: absolute;
 }
 
 .left p, .right p{
