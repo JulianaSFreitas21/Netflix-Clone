@@ -1,0 +1,257 @@
+:root{
+    --vermelho: rgb(255, 17, 17);
+    --cinza: rgb(36, 35, 35);
+    --laranja: #e87c03;
+    --cinza-claro: #ffffff9f;
+    --cinza-escuro: #ffffff6e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url(../img/fundoNetflix.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+header .container{
+    width: 94%;
+    margin: auto;
+}
+
+.container{
+    width: 62%;
+    margin: auto;
+}
+
+nav{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    height: 60px;
+}
+
+.logo img{
+    width: 10.1%;
+}
+
+main .container{
+    height: 630px;
+    margin: auto;
+    width: 320px;
+}
+
+/*MAIN*/
+
+main{
+    min-height: 660px;
+    margin: auto;
+    margin-bottom: 80px;
+    width: 445px;
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)100%);
+}
+
+.label{
+    padding-top: 50px;
+}
+
+.container h1{
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 34px;
+}
+
+form{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+input{
+    height: 6vh;
+}
+
+form input:first-of-type{
+    margin-bottom: 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: var(--laranja) 2px solid;
+}
+
+form input{
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+form p{
+    color: var(--laranja);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+form button{
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    background-color: var(--vermelho);
+    color: #fff;
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+}
+
+.juntos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.juntos p{
+    color: var(--cinza-claro);
+    margin-bottom: 7px;
+}
+
+.lembrete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lembrete p{
+    margin-left: 8px;
+}
+
+.facebook a{
+    color: var(--cinza-escuro);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.facebook a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.facebook a i{
+    font-size: 20px;
+    color: #087af5;
+    padding-right: 10px;
+}
+
+.facebook h4{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 100;
+    color: var(--cinza-escuro);
+}
+
+.facebook h4 a{
+    margin-left: 3px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.facebook h5{
+    position: relative;
+    width: 100%;
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 13px;
+    color: var(--cinza-claro);
+}
+
+.facebook h5 a{
+    top: 53%;
+    right: 18%;
+    position: absolute;
+    color: #0071eb;
+    font-weight: bold;
+} 
+
+/*FOOTER*/
+
+footer{
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6) 100%);
+}
+
+i{
+    color: var(--cinza-claro);
+}
+
+footer .container{
+    margin: auto;
+}
+
+footer .container p, .col a{
+    text-decoration: none;
+    color: #ffffff86;
+}
+
+footer .container p:first-of-type{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+footer .container p:last-of-type{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.colunas{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.col a{
+    margin-bottom: 18px;
+    font-size: 13px;
+}
+
+#btn3{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: var(--cinza-claro);
+    padding: 12px;
+    z-index: 2;
+}
+
+#btn3 i{
+    margin-top: 2px;
+    font-size: 20px;
+    margin-left: 5px;
+}

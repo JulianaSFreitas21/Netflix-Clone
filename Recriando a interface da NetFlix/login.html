@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="font-awesome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/login.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <img src="img/netflix-logo-2.png" alt="netflix-logo">
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="label">
+                <h1>Entar</h1>
+                <form action="index.html">
+                    <input type="email" type="number" name="email" size="20" placeholder="Email ou número de telefone" required>
+                    <p>Informe um email ou número de telefone válido.</p>
+                    <input type="password" name="senha" size="15" placeholder="Senha" required>
+                    <a><button id="botao">Entrar</button></a>
+                    <div class="juntos">
+                        <div class="lembrete">
+                            <input type="checkbox" name="Lembre-se de mim" value="Lembre-se de mim">
+                            <p>Lembre-se de mim</p>
+                        </div>
+                        <p>Precisa de ajuda?</p>
+                    </div>
+                </form>
+                <div class="facebook">
+                    <a href="https://www.facebook.com/"> 
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        Conectar com Facebook
+                    </a>
+                    <h4> Novo por aqui? <a href="">Assine agora.</a></h4>
+                    <h5>Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.<a>Saiba mais.</a></h5>
+                </div>
+            </div>            
+        </div>        
+    </main>
+    <footer>
+        <div class="container">
+            <p>Dúvidas? Ligue 0800-761-4631</p>
+            <div class="colunas">
+                <div class="col">
+                    <a href="#">Perguntas frequentes</a>
+                    <a href="#">Preferências de cookies</a>
+                </div>
+                <div class="col">
+                    <a href="#">Centro de ajuda</a>
+                    <a href="#">Informações corporativas</a>
+                </div>
+                <div class="col">
+                    <a href="#">Termos de uso</a>
+                </div>
+                <div class="col">
+                    <a href="#">Privacidade</a>
+               </div>
+            </div>
+            <button id="btn3">
+                Português
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </button>
+            <p>Netflix Brasil</p>
+        </div>                
+    </footer>
 </body>
 </html>
