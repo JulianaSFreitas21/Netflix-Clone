@@ -8,7 +8,6 @@ function ocultar(elemento){
 
     if(closer.style.display === "none"){
         closer.style.display = "flex";
-
     } else{
         closer.style.display = "none";
     }
@@ -26,7 +25,7 @@ function esconder(elemento){
 function mostrar(elemento){   
 
     if(coser.style.display === "none"){
-        coser.style.display = "flex";
+        coser.style.display = "flex";   
     } else{
         coser.style.display = "none";
     }

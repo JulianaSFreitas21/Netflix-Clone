@@ -137,6 +137,16 @@ h1,p{
     color: #888;
 }
 
+.email input:last-of-type{
+    position: relative;
+    height: 7.5vh;
+    width: 710px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+    margin-bottom: 80px;
+}
+
 .email button{
     background-color: var(--vermelho);
     box-shadow: 1px 2px 3px #111111;
@@ -285,7 +295,7 @@ h1,p{
 }
 
 .questions{
-    height: 100vh;
+    height: 100%;
 }
 
 .prop_diferente{
