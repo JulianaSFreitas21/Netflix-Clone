@@ -216,7 +216,13 @@ h1,p{
     height: 390px;
 }
 
-.celfone .container .prop .left{
+.celfone .container .prop {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.celfone .container .prop .right{
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
@@ -255,12 +261,13 @@ h1,p{
     margin: auto;
 }
 
-.btnStringer h4{
+.btnStringer .text_box h4{
     color: white;
 }
 
-.btnStringer p{
+.btnStringer .text_box p{
     font-size: 15px;
+    color: #0071eb;
 }
 
 .btnStringer img{
@@ -406,16 +413,14 @@ footer .container p:last-of-type{
 }
 
 .colunas{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    width: 90%;
     margin-bottom: 20px;
 }
 
 .col{
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    gap: 0 20px;
 }
 
 .col li{

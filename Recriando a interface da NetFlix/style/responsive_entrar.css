@@ -79,7 +79,7 @@
     }
 
     .email input{
-        width: 310px;
+        width: 320px;
     }
 
     .email input:last-of-type{
@@ -93,8 +93,200 @@
         height: 6vh;
         width: 120px;
         font-size: 16px;
+        margin-bottom: 60px;
     }
 
+    .television .container{
+        width: 88%;
+    }
+
+    .prop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .television .left{
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .left, .right{
+        margin: auto;
+    }
+
+    .left h1, .right h1{
+        font-weight: bold;
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+    .prop .left p, .right p{
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .television img{
+        height: 38vh;
+        position: relative;
+        z-index: 2;
+    }
+
+    #video1{
+        margin-top: 6.5vh;
+        margin-left: 6.8vh;
+        height: 22.5%;
+        position: absolute;
+    }
+
+    .celfone .container{
+        width: 97%;
+        margin: auto;
+    }
+
+    .celfone .container .prop {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .celfone .container .prop .left{
+        margin: 30px auto 0;
+        width: 90%;
+    }
+
+    .celfone .container .prop .right{
+        width: 100%;
+    }
+
+    .celfone .container .prop .left h1{
+        margin: 20px auto 10px;
+    }
+
+    .celfone img{
+        height: 250px;
+    }
+
+    .btnStringer{
+        height: 72px;
+        width: 240px;
+        border: 2px #333 solid;
+        transform: translateY(-30%);
+    }
+    
+    .btnStringer::after{
+        width: 2em;
+        height: 2em;
+    }
+    
+    .btnStringer .text_box h4{
+        font-size: 13px;
+        color: white;
+    }
+    
+    .btnStringer .text_box p{ 
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    
+    .btnStringer .box_image img{
+        height: 50px;
+    }
+
+    .dispositivos{
+        height: 100%;
+    }
+
+    .dispositivos .container{
+        width: 97%;
+    }
+    
+    .dispositivos img{
+        height: 40vh;
+        position: relative;
+        z-index: 2;
+        margin-bottom: 40px;
+    }
+    
+    #video2{
+        height: 18.5%;
+        position: absolute;
+        margin-top: 4vh;
+        margin-left: 10vh;
+    }
+    
+    .dispositivos .left{
+        margin: 30px 0 0;
+        display: flex;
+        flex-direction: column;
+        z-index: 1;
+    }
+
+    .dispositivos .left h1{
+        margin: 30px 0 10px;
+    }
+
+    .dispositivos .right{
+        margin: 0 0;
+    }
+
+    .questions .container{
+        width: 100%;
+    }
+
+    .prop_diferente h1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        width: 100%;  
+    }
+    
+    .prop_diferente p:last-of-type{
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .question{
+        width: 100%;
+    }
+
+    .question .box p{
+        font-size: 18px;
+    }
+    
+    .question .show p{
+        font-size: 18px;
+    }
+    
+    .box i{
+        margin-top: 3px;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .colunas{
+        width: 100%
+    }
+
+    footer .container{
+        width: 85%
+    }
+
+    .col{
+        display: grid;
+        grid-template-columns: 8fr 8fr;
+        gap: 0 20px;
+    }
+    
+    .col a{
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width:1000px){
