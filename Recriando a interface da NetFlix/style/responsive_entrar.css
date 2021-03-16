@@ -1,0 +1,109 @@
+@media screen and (max-width:600px){
+
+    header .container{
+       
+       margin: auto;
+    }
+
+    nav{
+        padding-top: 20px;
+        margin: auto;
+        width: auto;
+    }
+
+    .botoes{
+        width: 65%;
+    }
+
+    #btn1{
+        padding: 3px 7px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    
+    #btn2{
+        padding: 5px 8px;
+        font-size: 14px;
+    }
+
+    .logo{
+        width: 180px;
+    }
+
+    .logo img{
+        width: 5.4375rem;
+        height: 1.5125rem;
+        margin-left: 10px;
+    }
+    
+    #fundo{
+        height: 550px;
+        background-size: 290%;
+    }
+
+    #fundo .container{
+        width: 90%;
+    }
+
+    /*TEXT*/
+
+    .text{
+        margin-top: 20px;
+    }
+
+    .text h1{
+        font-size: 27px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .text p:first-of-type{
+        width: 92%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    
+    .text p:last-of-type{
+        width: 90%;
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }    
+
+    .email{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .email input{
+        width: 310px;
+    }
+
+    .email input:last-of-type{
+        margin-bottom: 10px;
+    }
+
+    .email button{
+        border: none;
+        color: white;
+        position: relative;
+        height: 6vh;
+        width: 120px;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width:1000px){
+    .descricao{
+        width: 60%;
+    }
+
+    .logo img{
+        width: 10.4375rem;
+        height: 2.8125rem;
+    }
+}

@@ -11,6 +11,7 @@
 }
 
 body{
+    width: 100%;
     background-color: #222;
 }
 
@@ -41,11 +42,13 @@ nav{
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    width: 95%;
     height: 60px;
 }
 
 .logo img{
-    width: 10.1%;
+    width: 10.4375rem;
+    height: 2.8125rem;
 }
 
 .botoes{
@@ -79,9 +82,9 @@ nav{
     border: 1px solid var(--vermelho);
     border-radius: 3px;
     color: white;
-    margin-right: 30px;
-    padding: 7px 14px;
+    padding: 10px 15px;
     cursor: pointer;
+    font-size: 15px;
 }
 
 #fundo{
@@ -89,7 +92,6 @@ nav{
     background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5) 100%), url(../img/fundoNetflix.jpg);
     height: 750px;
     width: 100%;
-    overflow: auto;
     display: flex;
 }
 
@@ -139,12 +141,6 @@ h1,p{
 }
 
 .email input:last-of-type{
-    position: relative;
-    height: 7.5vh;
-    width: 710px;
-    font-size: 16px;
-    font-weight: 500;
-    color: #888;
     margin-bottom: 80px;
 }
 
@@ -410,7 +406,7 @@ footer .container p:last-of-type{
 }
 
 .colunas{
-    width: 93%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -418,18 +414,22 @@ footer .container p:last-of-type{
 }
 
 .col{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr;
 }
 
-.col a{
+.col li{
+    list-style: none;
     margin-bottom: 18px;
     font-size: 13px;
 }
 
+.col a:hover{
+    text-decoration: underline;
+}
+
 #btn3{
-    width: 15%;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
