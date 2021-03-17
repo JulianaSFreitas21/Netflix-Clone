@@ -138,7 +138,7 @@ i{
 }
 
 footer .container{
-    width: 40%;
+    width: 70%;
 }
 
 footer .container p, .col a{
@@ -159,17 +159,24 @@ footer .container p:last-of-type{
 }
 
 .colunas{
-    width: 93%;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 .col{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr;
+    gap: 0 30px;
+}
+
+.col li{
+    list-style: none;
+    margin-bottom: 18px;
+    font-size: 13px;
+}
+
+.col a:hover{
+    text-decoration: underline;
 }
 
 .col a{

@@ -1,14 +1,13 @@
 @media screen and (max-width:600px){
 
     header .container{
-       
        margin: auto;
+       width: 100%;
     }
 
     nav{
         padding-top: 20px;
         margin: auto;
-        width: auto;
     }
 
     .botoes{
@@ -37,6 +36,7 @@
     }
     
     #fundo{
+        width: 100%;
         height: 550px;
         background-size: 290%;
     }
@@ -48,11 +48,12 @@
     /*TEXT*/
 
     .text{
-        margin-top: 20px;
+        margin-top: 80px;
     }
 
     .text h1{
-        font-size: 27px;
+        width: 100%;
+        font-size: 1.7rem;
         text-align: center;
         margin-bottom: 15px;
     }
@@ -138,7 +139,7 @@
 
     #video1{
         margin-top: 6.5vh;
-        margin-left: 6.8vh;
+        margin-left: 6.7vh;
         height: 22.5%;
         position: absolute;
     }
@@ -289,13 +290,51 @@
     }
 }
 
-@media screen and (min-width:1000px){
-    .descricao{
-        width: 60%;
-    }
+@media screen and (min-width:1034px){
 
     .logo img{
-        width: 10.4375rem;
-        height: 2.8125rem;
+        width: 7.4375rem;
+        height: 2.0125rem;
+        margin-left: 10px;
+    }
+
+    /*TEXT*/
+
+    .text{
+        margin-top: 50px;
+    }
+
+    .text h1{
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    .text p:first-of-type{
+        width: 92%;
+        text-align: center;
+        font-size: 1.6em;
+        margin-bottom: 10px;
+    }
+    
+    .text p:last-of-type{
+        text-align: center;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }    
+
+    .email input{
+        width: 670px;
+    }
+
+    
+
+    .email button{
+        border: none;
+        color: white;
+        height: 7.5vh;
+        width: 160px;
+        font-size: 18px;
+        margin-bottom: 60px;
     }
 }

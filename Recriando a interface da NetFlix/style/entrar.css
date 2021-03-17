@@ -16,9 +16,17 @@ body{
 }
 
 /*HEADER*/
+header{
+    width: 100%;
+}
+
 header .container{
     width: 94%;
     margin: auto;
+}
+
+#fundo{
+    width: 100%;
 }
 
 #fundo .container{
@@ -27,7 +35,7 @@ header .container{
 }
 
 .container{
-    width: 62%;
+    width: 82%;
     margin: auto;
 }
 
@@ -47,14 +55,14 @@ nav{
 }
 
 .logo img{
-    width: 10.4375rem;
-    height: 2.8125rem;
+    width: 8.4375rem;
+    height: 2.2125rem;
 }
 
 .botoes{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 #btn1{
@@ -110,18 +118,19 @@ h1,p{
 }
 
 .text h1{
-    font-size: 62px;
+    width: 80%;
+    font-size: 3.1rem;
     text-align: center;
     margin-bottom: 25px;
 }
 
 .text p:first-of-type{
-    font-size: 25px;
+    font-size: 26px;
     margin-bottom: 30px;
 }
 
 .text p:last-of-type{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
@@ -133,7 +142,7 @@ h1,p{
 .email input{
     position: relative;
     height: 7.5vh;
-    width: 710px;
+    width: 650px;
     font-size: 16px;
     font-weight: 500;
     color: #888;
@@ -151,7 +160,7 @@ h1,p{
     color: white;
     position: absolute;
     height: 7.5vh;
-    width: 200px;
+    width: 190px;
     font-size: 26px;
 }
 
@@ -298,6 +307,10 @@ h1,p{
     z-index: 1;
 }
 
+.dispositivos .container .prop .left p{
+    width: 90%;
+}
+
 .questions{
     height: 100%;
 }
@@ -391,11 +404,12 @@ footer{
 }
 
 footer .container{
-    width: 47%;
+    width: 66%;
     margin: auto;
 }
 
 footer .container p, .col a{
+    font-size: 12px;
     text-decoration: none;
     color: #ffffff86;
 }
@@ -403,7 +417,7 @@ footer .container p, .col a{
 footer .container p:first-of-type{
     padding-top: 60px;
     padding-bottom: 30px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 footer .container p:last-of-type{
@@ -413,14 +427,14 @@ footer .container p:last-of-type{
 }
 
 .colunas{
-    width: 90%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
 .col{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr 5fr;
-    gap: 0 20px;
+    gap: 0 30px;
 }
 
 .col li{
