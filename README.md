@@ -13,6 +13,3 @@ Baseado na página inicial, cadastro e login oficial e atual (Março / 2021) da 
 O vídeo da aplicação está disponpivel no meu facebook:
 
 `<link>`<https://www.facebook.com/100003641756292/videos/2223124797818890/>
-
-
-
